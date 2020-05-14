@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Jost:wght@100&display=swap" rel="stylesheet">
+    <title>Buscador por CEP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content"> 
+            <header>
+                <h2>BUSCADOR POR CEP</h2>
+            </header>
+            <section>
+                <input type="text" id="search-cep" placeholder="Digite um CEP" maxlength="8">
+                <p>
+                    <input type="button" value="Buscar" onclick="searchzp()">
+                </p>
+            </section>
+            <section class="result">
+                <span id="res"></span>
+            </section>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
